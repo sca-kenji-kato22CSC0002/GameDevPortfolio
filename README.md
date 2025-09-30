@@ -1,4 +1,9 @@
 # GameDevPortfolio
 ## MutantAssult
 ### ジャンル：3Dアクションゲーム（個人製作）
+### 使用ライブラリ：DxLib
+### 使用言語：C++
+## ABYSSHOLEUP
 ### ジャンル：2Dパズルアクション（チーム製作）
+### ゲームエンジン：Unity
+### 使用言語：C#
