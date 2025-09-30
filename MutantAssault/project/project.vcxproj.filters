@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\SceneFactory.cpp" />
+    <ClCompile Include="Library\App.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\SceneManager.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\main.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BootScene.cpp">
+      <Filter>BootScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleScene.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayScene.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugScreen.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\SceneBase.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Time.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ObjectManager.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_ja_gryph_ranges.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Axis.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\animation.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage.cpp">
+      <Filter>PlayScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkyDoom.cpp">
+      <Filter>PlayScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\csvReader.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlaySceneUI.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>PlayScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>PlayScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResultScene.cpp">
+      <Filter>ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fade.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MutantRock.cpp">
+      <Filter>PlayScene\Enemy\Mutant</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Locus.cpp">
+      <Filter>PlayScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScoreManager.cpp">
+      <Filter>PlayScene\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mutant_Enemy.cpp">
+      <Filter>PlayScene\Enemy\Mutant</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TargetManager.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Witch_Enemy.cpp">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GrowRock.cpp">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThrowRock.cpp">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FlyingRock.cpp">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Screen.h" />
+    <ClInclude Include="Source\SceneFactory.h" />
+    <ClInclude Include="Library\App.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\SceneManager.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\SceneBase.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\GameObject.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BootScene.h">
+      <Filter>BootScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TitleScene.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayScene.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugScreen.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\myDxLib.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Time.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ObjectManager.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dxlib.hpp">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Axis.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\animation.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkyDoom.h">
+      <Filter>PlayScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage.h">
+      <Filter>PlayScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\csvReader.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlaySceneUI.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>PlayScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>PlayScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine.h">
+      <Filter>PlayScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResultScene.h">
+      <Filter>ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Fade.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MutantRock.h">
+      <Filter>PlayScene\Enemy\Mutant</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Locus.h">
+      <Filter>PlayScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScoreManager.h">
+      <Filter>PlayScene\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TargetManager.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mutant_Enemy.h">
+      <Filter>PlayScene\Enemy\Mutant</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorTree.h">
+      <Filter>PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Witch_Enemy.h">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GrowRock.h">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThrowRock.h">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FlyingRock.h">
+      <Filter>PlayScene\Enemy\Witch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{208c2106-181f-415c-a2e8-fa160c7f8651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootScene">
+      <UniqueIdentifier>{4e7a122b-01b5-4a1f-bdd8-381c4cb2403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{a52f9c67-9c6c-4376-8f4c-07a10ecbc3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene">
+      <UniqueIdentifier>{8123ada4-16d1-40da-a8f3-3f9e93aafb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{826397a3-7051-44be-b23c-f5dda703c9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{465af27e-9b8d-4183-a4ad-726619236b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Stage">
+      <UniqueIdentifier>{581bec78-01c1-43e4-9022-4e33f70a930e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Player">
+      <UniqueIdentifier>{a92b2ded-8a78-4d51-829c-5dcdefaea393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Enemy">
+      <UniqueIdentifier>{05982681-18df-4706-8be8-e446d626d5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Enemy\Mutant">
+      <UniqueIdentifier>{c4f1dcb1-5556-4fb3-ab78-a16ddb6e09f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResultScene">
+      <UniqueIdentifier>{96689ed3-72f3-4c0e-b664-b5ea5a37a01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Score">
+      <UniqueIdentifier>{741a6b68-3187-4ade-bc2d-2fbebc8d6d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Enemy\Goblin">
+      <UniqueIdentifier>{5ab096bf-f3a4-4297-810c-38bf9eb3e7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Enemy\Witch">
+      <UniqueIdentifier>{b855161d-dff3-4b3f-89ff-6ec2ae1ffccb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
