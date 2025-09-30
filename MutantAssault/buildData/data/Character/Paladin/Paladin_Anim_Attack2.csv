@@ -1,0 +1,7 @@
+7,AttackStart
+7,LocusStart
+10,SE_Attack
+30,AttackEnd
+30,LocusEnd
+30,NextAttack
+30,NextAction
